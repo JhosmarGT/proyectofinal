@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_carrito"
+            android:icon="@drawable/car"
+            android:title="Carrito"/>
+        <item
+            android:id="@+id/nav_categorias"
+            android:icon="@drawable/categorias"
+            android:title="Categorias"/>
+        <item
+            android:id="@+id/nav_buscar"
+            android:icon="@drawable/categorias"
+            android:title="Buscar"/>
+        <item
+            android:id="@+id/nav_perfil"
+            android:icon="@drawable/perfiluser"
+            android:title="Perfil"/>
+        <item
+            android:id="@+id/nav_salir"
+            android:icon="@drawable/salir"
+            android:title="Cerrar Sesion"/>
+
+
+    </group>
+
+
+
+</menu>

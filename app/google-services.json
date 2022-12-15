@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "375730399420",
+    "project_id": "neotec-one-8ac13",
+    "storage_bucket": "neotec-one-8ac13.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:375730399420:android:05ec50e0389377e38088b9",
+        "android_client_info": {
+          "package_name": "com.play.neotech_one"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "375730399420-3i3jjvm7e230uikjjk44h2o3jsr3k3ej.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBMjEwbUuXlpT169i9VE2O5zOgreiEzNlg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "375730399420-3i3jjvm7e230uikjjk44h2o3jsr3k3ej.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

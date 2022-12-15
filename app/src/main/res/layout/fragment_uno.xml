@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".FragmentUno"
+    android:background="@drawable/fondoblanco">
+
+    <TextView
+        android:id="@+id/texto2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Agregar Producto"
+        android:layout_centerHorizontal="true"
+        android:textAlignment="center"
+        android:background="@color/black"
+        android:textColor="@color/white"
+        android:padding="15dp"
+        android:textStyle="bold|italic"/>
+
+    <LinearLayout
+        android:id="@+id/liner_layout1"
+        android:layout_width="201dp"
+        android:layout_height="102dp"
+        android:layout_below="@id/texto2"
+        android:layout_marginTop="20dp"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/celulares"
+            android:layout_width="88dp"
+            android:layout_height="99dp"
+            android:src="@drawable/cel3"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/liner_layout2"
+        android:layout_width="201dp"
+        android:layout_height="102dp"
+        android:layout_below="@id/texto2"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="0dp"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/laptop"
+            android:layout_width="88dp"
+            android:layout_height="99dp"
+            android:src="@drawable/compu" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/liner_layout3"
+        android:layout_width="201dp"
+        android:layout_height="102dp"
+        android:layout_below="@id/liner_layout2"
+        android:layout_marginTop="20dp"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/impresora"
+            android:layout_width="88dp"
+            android:layout_height="99dp"
+            android:src="@drawable/impres2" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/liner_layout4"
+        android:layout_width="201dp"
+        android:layout_height="102dp"
+        android:layout_below="@id/liner_layout3"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="-101dp"
+        android:layout_marginRight="0dp"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/videojuego"
+            android:layout_width="88dp"
+            android:layout_height="99dp"
+            android:src="@drawable/mando" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/liner_layout5"
+        android:layout_width="201dp"
+        android:layout_height="102dp"
+        android:layout_below="@id/liner_layout4"
+        android:layout_marginTop="20dp"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/cpu"
+            android:layout_width="88dp"
+            android:layout_height="99dp"
+            android:src="@drawable/cpu" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/liner_layout6"
+        android:layout_width="201dp"
+        android:layout_height="102dp"
+        android:layout_below="@id/liner_layout5"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="-102dp"
+        android:layout_marginRight="0dp"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/pc"
+            android:layout_width="88dp"
+            android:layout_height="99dp"
+            android:src="@drawable/pc" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/liner_layout7"
+        android:layout_width="201dp"
+        android:layout_height="102dp"
+        android:layout_below="@id/liner_layout6"
+        android:orientation="horizontal"
+        android:layout_centerHorizontal="true"
+        android:gravity="center"
+        android:layout_marginTop="30dp">
+
+        <ImageView
+            android:id="@+id/otro"
+            android:layout_width="88dp"
+            android:layout_height="99dp"
+            android:src="@drawable/otros3"/>
+
+    </LinearLayout>
+
+
+</RelativeLayout>
